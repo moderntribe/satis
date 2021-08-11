@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$cbc59292e62d4d9e5fff8b3852bcb6030149d7e1.json": {
-            "sha1": "cbc59292e62d4d9e5fff8b3852bcb6030149d7e1"
+        "include/all$e2b5e26cf31818e5e5e06cbb28a3c34627aa3bfc.json": {
+            "sha1": "e2b5e26cf31818e5e5e06cbb28a3c34627aa3bfc"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -11,7 +11,7 @@
         "moderntribe/composer-installer",
         "moderntribe/dev-server",
         "moderntribe/rope-plugin-core",
-        "moderntribe/rope-plugin-library",
+        "moderntribe/rope-plugin-lib",
         "moderntribe/tmc-plugin-client"
     ]
 }
