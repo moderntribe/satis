@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "advanced-custom-fields/advanced-custom-fields-pro": {
+            "5.9.8": {
+                "name": "advanced-custom-fields/advanced-custom-fields-pro",
+                "version": "5.9.8",
+                "version_normalized": "5.9.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%WP_PLUGIN_ACF_KEY}&t={%VERSION}"
+                },
+                "require": {
+                    "ffraenz/private-composer-installer": "^3.0"
+                },
+                "type": "wordpress-plugin"
+            }
+        },
+        "ropeladder/core-plugin": {
+            "dev-main": {
+                "name": "ropeladder/core-plugin",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ropeladderwp/core-plugin.git",
+                    "reference": "f16106dfd6d3b3b144df469224dafa02908fc61e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ropeladderwp/core-plugin/zipball/f16106dfd6d3b3b144df469224dafa02908fc61e",
+                    "reference": "f16106dfd6d3b3b144df469224dafa02908fc61e",
+                    "shasum": ""
+                },
+                "require": {
+                    "mustache/mustache": "^2.5",
+                    "php-di/php-di": "6.0.*"
+                },
+                "time": "2021-08-11T17:36:25+00:00",
+                "default-branch": true,
+                "type": "wordpress-muplugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\Core\\": "src"
+                    }
+                },
+                "description": "Rope Ladder's Core Plugin for customizing Wordpress Projects",
+                "support": {
+                    "source": "https://github.com/ropeladderwp/core-plugin/tree/main",
+                    "issues": "https://github.com/ropeladderwp/core-plugin/issues"
+                }
+            }
+        }
+    }
+}
