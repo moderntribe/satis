@@ -2,11 +2,6 @@
   "name": "moderntribe/satis",
   "description": "Modern Tribe's Satis Server",
   "homepage": "https://moderntribe.github.io/satis/",
-  "archive": {
-    "directory": "dist",
-    "format": "tar",
-    "skip-dev": true
-  },
   "repositories": [
     {
       "type": "vcs",
@@ -39,6 +34,7 @@
           "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%WP_PLUGIN_ACF_KEY}&t={%VERSION}"
         },
         "require": {
+          "composer/installers": "^2.0",
           "ffraenz/private-composer-installer": "^5.0"
         }
       }

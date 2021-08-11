@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "moderntribe/rope-plugin-library": [
+            {
+                "name": "moderntribe/rope-plugin-library",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/rope-plugin-lib.git",
+                    "reference": "1b240d21c5c860749ea73bafdb2d660660900ad3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/rope-plugin-lib/zipball/1b240d21c5c860749ea73bafdb2d660660900ad3",
+                    "reference": "1b240d21c5c860749ea73bafdb2d660660900ad3",
+                    "shasum": ""
+                },
+                "require": {
+                    "moderntribe/rope-plugin-core": "@dev"
+                },
+                "time": "2021-08-11T20:20:58+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\Library\\": "src"
+                    }
+                },
+                "description": "Rope Ladder's Library Plugin for Reusable services",
+                "support": {
+                    "source": "https://github.com/moderntribe/rope-plugin-lib/tree/main",
+                    "issues": "https://github.com/moderntribe/rope-plugin-lib/issues"
+                }
+            }
+        ]
+    }
+}

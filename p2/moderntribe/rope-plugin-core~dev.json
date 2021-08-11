@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "moderntribe/rope-plugin-core": [
+            {
+                "name": "moderntribe/rope-plugin-core",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/rope-plugin-core.git",
+                    "reference": "677e5a991fb2a0935eee6b04be307598e2eae93b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/rope-plugin-core/zipball/677e5a991fb2a0935eee6b04be307598e2eae93b",
+                    "reference": "677e5a991fb2a0935eee6b04be307598e2eae93b",
+                    "shasum": ""
+                },
+                "require": {
+                    "mustache/mustache": "^2.5",
+                    "php-di/php-di": "6.0.*"
+                },
+                "time": "2021-08-11T20:23:53+00:00",
+                "default-branch": true,
+                "type": "wordpress-muplugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\Core\\": "src"
+                    }
+                },
+                "description": "Rope Ladder's Core Plugin for customizing Wordpress Projects",
+                "support": {
+                    "source": "https://github.com/moderntribe/rope-plugin-core/tree/main",
+                    "issues": "https://github.com/moderntribe/rope-plugin-core/issues"
+                }
+            }
+        ]
+    }
+}

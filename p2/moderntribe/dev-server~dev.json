@@ -1,0 +1,47 @@
+{
+    "packages": {
+        "moderntribe/dev-server": [
+            {
+                "name": "moderntribe/dev-server",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/dev-server.git",
+                    "reference": "94ebc5a0ffdfd6ce4eeb506e00944d296c33d2fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/dev-server/zipball/94ebc5a0ffdfd6ce4eeb506e00944d296c33d2fa",
+                    "reference": "94ebc5a0ffdfd6ce4eeb506e00944d296c33d2fa",
+                    "shasum": ""
+                },
+                "require": {
+                    "moderntribe/composer-installer": "*"
+                },
+                "time": "2021-08-11T19:53:11+00:00",
+                "default-branch": true,
+                "type": "tribe-server",
+                "autoload": {
+                    "psr-4": {
+                        "Tribe\\Tests\\": "tests/tests/_support/Classes/"
+                    }
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Modern Tribe",
+                        "email": "admin@tri.be"
+                    }
+                ],
+                "description": "Modern Tribe's Development Environment build with a Docker Container",
+                "support": {
+                    "source": "https://github.com/moderntribe/dev-server/tree/main",
+                    "issues": "https://github.com/moderntribe/dev-server/issues"
+                }
+            }
+        ]
+    }
+}

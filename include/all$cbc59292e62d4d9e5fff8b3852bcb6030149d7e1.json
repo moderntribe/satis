@@ -1,0 +1,208 @@
+{
+    "packages": {
+        "advanced-custom-fields/advanced-custom-fields-pro": {
+            "5.9.8": {
+                "name": "advanced-custom-fields/advanced-custom-fields-pro",
+                "version": "5.9.8",
+                "version_normalized": "5.9.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%WP_PLUGIN_ACF_KEY}&t={%VERSION}"
+                },
+                "require": {
+                    "composer/installers": "^2.0",
+                    "ffraenz/private-composer-installer": "^5.0"
+                },
+                "type": "wordpress-plugin"
+            }
+        },
+        "moderntribe/composer-installer": {
+            "dev-main": {
+                "name": "moderntribe/composer-installer",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/composer-installer.git",
+                    "reference": "6ed09c8ea50f3160f41722a87eaa729be0a2207b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/composer-installer/zipball/6ed09c8ea50f3160f41722a87eaa729be0a2207b",
+                    "reference": "6ed09c8ea50f3160f41722a87eaa729be0a2207b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.3"
+                },
+                "time": "2021-08-11T18:36:19+00:00",
+                "default-branch": true,
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Tribe\\Composer\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Tribe\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/moderntribe/composer-installer/tree/main",
+                    "issues": "https://github.com/moderntribe/composer-installer/issues"
+                }
+            }
+        },
+        "moderntribe/dev-server": {
+            "dev-main": {
+                "name": "moderntribe/dev-server",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/dev-server.git",
+                    "reference": "94ebc5a0ffdfd6ce4eeb506e00944d296c33d2fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/dev-server/zipball/94ebc5a0ffdfd6ce4eeb506e00944d296c33d2fa",
+                    "reference": "94ebc5a0ffdfd6ce4eeb506e00944d296c33d2fa",
+                    "shasum": ""
+                },
+                "require": {
+                    "moderntribe/composer-installer": "*"
+                },
+                "time": "2021-08-11T19:53:11+00:00",
+                "default-branch": true,
+                "type": "tribe-server",
+                "autoload": {
+                    "psr-4": {
+                        "Tribe\\Tests\\": "tests/tests/_support/Classes/"
+                    }
+                },
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Modern Tribe",
+                        "email": "admin@tri.be"
+                    }
+                ],
+                "description": "Modern Tribe's Development Environment build with a Docker Container",
+                "support": {
+                    "source": "https://github.com/moderntribe/dev-server/tree/main",
+                    "issues": "https://github.com/moderntribe/dev-server/issues"
+                }
+            }
+        },
+        "moderntribe/rope-plugin-core": {
+            "dev-main": {
+                "name": "moderntribe/rope-plugin-core",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/rope-plugin-core.git",
+                    "reference": "677e5a991fb2a0935eee6b04be307598e2eae93b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/rope-plugin-core/zipball/677e5a991fb2a0935eee6b04be307598e2eae93b",
+                    "reference": "677e5a991fb2a0935eee6b04be307598e2eae93b",
+                    "shasum": ""
+                },
+                "require": {
+                    "mustache/mustache": "^2.5",
+                    "php-di/php-di": "6.0.*"
+                },
+                "time": "2021-08-11T20:23:53+00:00",
+                "default-branch": true,
+                "type": "wordpress-muplugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\Core\\": "src"
+                    }
+                },
+                "description": "Rope Ladder's Core Plugin for customizing Wordpress Projects",
+                "support": {
+                    "source": "https://github.com/moderntribe/rope-plugin-core/tree/main",
+                    "issues": "https://github.com/moderntribe/rope-plugin-core/issues"
+                }
+            }
+        },
+        "moderntribe/rope-plugin-library": {
+            "dev-main": {
+                "name": "moderntribe/rope-plugin-library",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/rope-plugin-lib.git",
+                    "reference": "1b240d21c5c860749ea73bafdb2d660660900ad3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/rope-plugin-lib/zipball/1b240d21c5c860749ea73bafdb2d660660900ad3",
+                    "reference": "1b240d21c5c860749ea73bafdb2d660660900ad3",
+                    "shasum": ""
+                },
+                "require": {
+                    "moderntribe/rope-plugin-core": "@dev"
+                },
+                "time": "2021-08-11T20:20:58+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\Library\\": "src"
+                    }
+                },
+                "description": "Rope Ladder's Library Plugin for Reusable services",
+                "support": {
+                    "source": "https://github.com/moderntribe/rope-plugin-lib/tree/main",
+                    "issues": "https://github.com/moderntribe/rope-plugin-lib/issues"
+                }
+            }
+        },
+        "moderntribe/tmc-plugin-client": {
+            "dev-main": {
+                "name": "moderntribe/tmc-plugin-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/tmc-plugin-client.git",
+                    "reference": "3e61899024f60e83ea30d0593d61a41722393528"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/tmc-plugin-client/zipball/3e61899024f60e83ea30d0593d61a41722393528",
+                    "reference": "3e61899024f60e83ea30d0593d61a41722393528",
+                    "shasum": ""
+                },
+                "require": {
+                    "moderntribe/rope-plugin-core": "@dev"
+                },
+                "time": "2021-08-11T20:09:31+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\TMC\\Client\\": "src"
+                    }
+                },
+                "description": "Tribe Maintenance Center Client Plugin",
+                "support": {
+                    "source": "https://github.com/moderntribe/tmc-plugin-client/tree/main",
+                    "issues": "https://github.com/moderntribe/tmc-plugin-client/issues"
+                }
+            }
+        }
+    }
+}

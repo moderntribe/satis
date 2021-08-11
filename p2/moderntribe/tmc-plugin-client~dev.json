@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "moderntribe/tmc-plugin-client": [
+            {
+                "name": "moderntribe/tmc-plugin-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/tmc-plugin-client.git",
+                    "reference": "3e61899024f60e83ea30d0593d61a41722393528"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/tmc-plugin-client/zipball/3e61899024f60e83ea30d0593d61a41722393528",
+                    "reference": "3e61899024f60e83ea30d0593d61a41722393528",
+                    "shasum": ""
+                },
+                "require": {
+                    "moderntribe/rope-plugin-core": "@dev"
+                },
+                "time": "2021-08-11T20:09:31+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Rope\\TMC\\Client\\": "src"
+                    }
+                },
+                "description": "Tribe Maintenance Center Client Plugin",
+                "support": {
+                    "source": "https://github.com/moderntribe/tmc-plugin-client/tree/main",
+                    "issues": "https://github.com/moderntribe/tmc-plugin-client/issues"
+                }
+            }
+        ]
+    }
+}
