@@ -9,15 +9,11 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:moderntribe/dev-server.git"
+      "url": "git@github.com:moderntribe/step-core.git"
     },
     {
       "type": "vcs",
-      "url": "git@github.com:moderntribe/rope-plugin-core.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:moderntribe/rope-plugin-lib.git"
+      "url": "git@github.com:moderntribe/step-plugin-lib.git"
     },
     {
       "type": "vcs",

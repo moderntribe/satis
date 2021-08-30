@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:moderntribe/composer-installer.git",
-                    "reference": "6ed09c8ea50f3160f41722a87eaa729be0a2207b"
+                    "reference": "ad0fe01bde3d04c197bd90fd23ca39e7951c84ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/moderntribe/composer-installer/zipball/6ed09c8ea50f3160f41722a87eaa729be0a2207b",
-                    "reference": "6ed09c8ea50f3160f41722a87eaa729be0a2207b",
+                    "url": "https://api.github.com/repos/moderntribe/composer-installer/zipball/ad0fe01bde3d04c197bd90fd23ca39e7951c84ec",
+                    "reference": "ad0fe01bde3d04c197bd90fd23ca39e7951c84ec",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                 "require-dev": {
                     "composer/composer": "^1.3"
                 },
-                "time": "2021-08-11T18:36:19+00:00",
+                "time": "2021-08-21T14:32:48+00:00",
                 "default-branch": true,
                 "type": "composer-plugin",
                 "extra": {

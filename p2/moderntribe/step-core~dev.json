@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "moderntribe/step-core": [
+            {
+                "name": "moderntribe/step-core",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/step-core.git",
+                    "reference": "3643d9fca2ba55c28456a832593eb86b341f1c79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/step-core/zipball/3643d9fca2ba55c28456a832593eb86b341f1c79",
+                    "reference": "3643d9fca2ba55c28456a832593eb86b341f1c79",
+                    "shasum": ""
+                },
+                "require": {
+                    "mustache/mustache": "^2.5",
+                    "php-di/php-di": "6.0.*"
+                },
+                "time": "2021-08-30T23:31:02+00:00",
+                "default-branch": true,
+                "type": "wordpress-muplugin",
+                "autoload": {
+                    "psr-4": {
+                        "Step\\Core\\": "src"
+                    }
+                },
+                "description": "Modern Tribe STEP's Core Plugin for customizing Wordpress Projects",
+                "support": {
+                    "source": "https://github.com/moderntribe/step-core/tree/main",
+                    "issues": "https://github.com/moderntribe/step-core/issues"
+                }
+            }
+        ]
+    }
+}

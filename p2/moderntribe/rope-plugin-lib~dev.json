@@ -7,12 +7,12 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:moderntribe/rope-plugin-lib.git",
+                    "url": "git@github.com:moderntribe/step-plugin-lib.git",
                     "reference": "8d0251078c25788fc85559ed86781f243fb5c5db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/moderntribe/rope-plugin-lib/zipball/8d0251078c25788fc85559ed86781f243fb5c5db",
+                    "url": "https://api.github.com/repos/moderntribe/step-plugin-lib/zipball/8d0251078c25788fc85559ed86781f243fb5c5db",
                     "reference": "8d0251078c25788fc85559ed86781f243fb5c5db",
                     "shasum": ""
                 },
@@ -29,8 +29,8 @@
                 },
                 "description": "Rope Ladder's Library Plugin for Reusable services",
                 "support": {
-                    "source": "https://github.com/moderntribe/rope-plugin-lib/tree/main",
-                    "issues": "https://github.com/moderntribe/rope-plugin-lib/issues"
+                    "source": "https://github.com/moderntribe/step-plugin-lib/tree/main",
+                    "issues": "https://github.com/moderntribe/step-plugin-lib/issues"
                 }
             }
         ]

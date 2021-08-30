@@ -1,17 +1,16 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e2b5e26cf31818e5e5e06cbb28a3c34627aa3bfc.json": {
-            "sha1": "e2b5e26cf31818e5e5e06cbb28a3c34627aa3bfc"
+        "include/all$719f9fd9e2f7e08db53ab45253ce2da900f18b67.json": {
+            "sha1": "719f9fd9e2f7e08db53ab45253ce2da900f18b67"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
         "advanced-custom-fields/advanced-custom-fields-pro",
         "moderntribe/composer-installer",
-        "moderntribe/dev-server",
-        "moderntribe/rope-plugin-core",
         "moderntribe/rope-plugin-lib",
+        "moderntribe/step-core",
         "moderntribe/tmc-plugin-client"
     ]
 }
