@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "moderntribe/step-plugin-lib": [
+            {
+                "name": "moderntribe/step-plugin-lib",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/step-plugin-lib.git",
+                    "reference": "afbfdb67898e0c99c7d7e8e8af0689aadf90a3dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/step-plugin-lib/zipball/afbfdb67898e0c99c7d7e8e8af0689aadf90a3dc",
+                    "reference": "afbfdb67898e0c99c7d7e8e8af0689aadf90a3dc",
+                    "shasum": ""
+                },
+                "time": "2021-08-30T23:41:07+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Step\\Library\\": "src"
+                    }
+                },
+                "description": "Tribe Step's Library Plugin for Reusable services",
+                "support": {
+                    "source": "https://github.com/moderntribe/step-plugin-lib/tree/main",
+                    "issues": "https://github.com/moderntribe/step-plugin-lib/issues"
+                }
+            }
+        ]
+    }
+}

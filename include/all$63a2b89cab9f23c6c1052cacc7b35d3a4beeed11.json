@@ -58,40 +58,6 @@
                 }
             }
         },
-        "moderntribe/rope-plugin-lib": {
-            "dev-main": {
-                "name": "moderntribe/rope-plugin-lib",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:moderntribe/step-plugin-lib.git",
-                    "reference": "8d0251078c25788fc85559ed86781f243fb5c5db"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/moderntribe/step-plugin-lib/zipball/8d0251078c25788fc85559ed86781f243fb5c5db",
-                    "reference": "8d0251078c25788fc85559ed86781f243fb5c5db",
-                    "shasum": ""
-                },
-                "require": {
-                    "moderntribe/rope-plugin-core": "@dev"
-                },
-                "time": "2021-08-11T21:00:39+00:00",
-                "default-branch": true,
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "psr-4": {
-                        "Rope\\Library\\": "src"
-                    }
-                },
-                "description": "Rope Ladder's Library Plugin for Reusable services",
-                "support": {
-                    "source": "https://github.com/moderntribe/step-plugin-lib/tree/main",
-                    "issues": "https://github.com/moderntribe/step-plugin-lib/issues"
-                }
-            }
-        },
         "moderntribe/step-core": {
             "dev-main": {
                 "name": "moderntribe/step-core",
@@ -124,6 +90,37 @@
                 "support": {
                     "source": "https://github.com/moderntribe/step-core/tree/main",
                     "issues": "https://github.com/moderntribe/step-core/issues"
+                }
+            }
+        },
+        "moderntribe/step-plugin-lib": {
+            "dev-main": {
+                "name": "moderntribe/step-plugin-lib",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moderntribe/step-plugin-lib.git",
+                    "reference": "afbfdb67898e0c99c7d7e8e8af0689aadf90a3dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moderntribe/step-plugin-lib/zipball/afbfdb67898e0c99c7d7e8e8af0689aadf90a3dc",
+                    "reference": "afbfdb67898e0c99c7d7e8e8af0689aadf90a3dc",
+                    "shasum": ""
+                },
+                "time": "2021-08-30T23:41:07+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Step\\Library\\": "src"
+                    }
+                },
+                "description": "Tribe Step's Library Plugin for Reusable services",
+                "support": {
+                    "source": "https://github.com/moderntribe/step-plugin-lib/tree/main",
+                    "issues": "https://github.com/moderntribe/step-plugin-lib/issues"
                 }
             }
         },
